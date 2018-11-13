@@ -1,0 +1,17 @@
+Les codes en C++ et python suivant ne donnent pas le meme resultat pour certaines valeurs valides de x et y. Lesquelles ?
+
+. Python
+def division(x, y):
+	return x // y
+
+. C++
+int division(int x, int y)
+
+	return x / y;
+}
+
+x=5, y=10
+x=-10, y=-3
+x=15, y=-4 >>>>>>
+x=-8, y=2
+x=17,y=13

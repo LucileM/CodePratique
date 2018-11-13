@@ -1,0 +1,10 @@
+Question :
+
+Une de ces déclarations ne marche pas de la meme facon que les autres. Laquelle ?
+
+Supposons que a et b sont des booleans.
+
+1. a == not b >>>>>>><<
+2. not (a == b)
+3. a == (not b)
+4. not a == b

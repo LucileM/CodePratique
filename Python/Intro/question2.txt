@@ -1,0 +1,19 @@
+Question Efficacité comparaison :
+
+Vous voulez écrire une fonction qui prend en paramètres les nombres entiers x, y, L et R et retourne True si x^y est dans l'intervalle (L,R] et False sinon.
+
+Vous considérer plusieurs façon d'écrire une déclaration conditionnelle dans cette fonction :
+
+	1. ' if L < x ** y <= R : '
+	2. ' if x ** y > L and x ** y <= R: '
+	3. ' if x ** y in range(L + 1, R + 1): '
+
+Quel option serait la plus efficace en temps d'exécution ?
+
+---------------------------------------------------------------------------------------
+
+- La 3 est la plus optimale
+- La 2 est la plus optimale
+- La 1 est la plus optimale >>>>>>>
+- La 1 et la 2 sont pareilles et mieux que la 3
+- Elles sont toutes pareilles

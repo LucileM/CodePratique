@@ -1,0 +1,21 @@
+--------------------
+
+--------------------
+
+Quelle sera la valeur de 'res' après que le script suivant soit exécuté ?
+
+'''python
+xs = [()]
+res = [False] * 2
+if xs:
+	res[0] = True
+if xs[0]:
+	res[1] = True
+'''
+
+--------------------------------------------------------------------------
+
+[True, False] >>
+[False, True]
+[True, True]
+[False, False]
