@@ -1,0 +1,19 @@
+Question:
+
+Vous avez travaillé sur un algorithme particulièrement difficile tous les jours, et finalement vous décidez de prendre une pause et de boire du café.
+Mais a votre retour, vous découvrez avec horreur que votre chat a décidé to marcher sur le clavier en votre absence.
+Votre ordinateur n'authorise que les espace et les fèches quand des actions non authorisés se passent.
+Maintenant votre code contient donc bcp trop d'espaces.
+
+Pour réparer les dégâts vous avez besoin d'implémenter une fonction qui va remplacer les espaces dans la ligne de code donnée.
+
+Par exemple:
+
+line = "def                 m   e       gaDiffic     ultF un ction(x):"
+
+catWalk(line) = "def m efaDiffic ultF unction(x):"
+
+Temps d'exécution inférieur a 4secondes
+
+def catWalk(code):
+	return " ".join(code.split())

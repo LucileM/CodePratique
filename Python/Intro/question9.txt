@@ -1,0 +1,14 @@
+Question:
+
+Vous lancez un service révolutionnaire, et êtes très occupé pour l'améliorer ces derniers mois.
+Quand finallement vous décidez qu'il est finalisé, vous vous rappelez que vous avez créer une page de feedback il y a longtemps et que vous ne l'avez jamais vérifiée depuis.
+Maintenant vous n'avez rien de plus a faire, vous voulez voir ce que pense la communauté de votre service.
+
+Malheurement, il semblerait que la page de feedback n'est pas parfaite.:chaque 'feedback' est affiché sur une seule ligne, et si elle est trop long, il n'y a pas moyen de voir ce quil en est.
+
+Evidemment ce bug doit etre fixé.
+Implémentez une fonction qui, pour un 'feedback'  et la 'taille' de l'écran, diviser le en lignes pour que :
+chauqe mot est sur une meme ligne
+chaque ligne est au plus de la taille donnée
+aucune ligne ne commence ou finit avec des espaces
+chaque ligne doit avoir le maximum possible de mots.

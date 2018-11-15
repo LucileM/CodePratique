@@ -1,0 +1,10 @@
+Question :
+
+Vous avez trouvé un super IDE Python customisable qui fait presque tout ce que vous voulez voir dans votre environnement de travail.
+Mais, après quelques jours à coder vous découvrez qu'il y a une importante feature manquante : il ne peut pas convertir les tabs en espaces.
+Heureusement, cet IDE est facilement customisable, donc vous décidez d'écrire un plugin qui peut convertir tout les tabs du code en un nombre donné d'espace.
+
+Implémenter une fonction qui prend une partie de code et un nombre positif x et qui va convertir toutes les tabs du code en le nombre donné despaces.
+
+def convertionTabs(code, nombre)
+	return code.replace('t', x*' ')

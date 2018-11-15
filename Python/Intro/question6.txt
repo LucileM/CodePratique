@@ -1,0 +1,27 @@
+Questions:
+
+Implementet le code manquant demarqué par les ...
+Vous ne devez pas modifier le code préexistant.
+
+Un de vos collègue a une façon d'écrire très embêtante: il ne commence jamais ses messages avec des majuscules. Il les ajoute parfois dans des endroits harzardeux. Cela rend le travail difficile avec lui pour vous.
+Vous avez donc décidé d'écrire un plugin qui change chaque message recu de ce collègue dans une forme plus lisible.
+
+Implémentez une fonction qui va changer le premier charactère du message en majuscule et les autres en minuscule.
+
+Exemple:
+Pour 
+message = "hello tu NE vas jamais croire ce que 'MACHIN' a dit!!1",
+the résultat devra etre
+fixMessage(message) = "Hello tu ne vas jamais croire ce que 'machin' a dit!!1"
+
+Entree/Sortie
+
+. Temps d'exécution limite 4 secondes
+. entree message lettres, nombres, marque de ponctuation, espaces
+. garantie 1<= message.length <= 65
+
+. sortie string
+
+
+def fixMessage(message):
+	return ...
